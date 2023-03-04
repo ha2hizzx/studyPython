@@ -34,16 +34,11 @@ while False: #실행하지 않음
     c+=1
     if c == 24:
         break
+#문자열 출력 반복
 a = 0
 while a < 5: 
     a = a +1
     print("Hello")  #수행할 문장
 print("\n")
 
-#반복문 for
-a = ['Jone', 'David', 'Bob']
-for name in a:
-    print(name)
-    if name == 'Bob':
-        break
     
