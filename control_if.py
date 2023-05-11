@@ -73,5 +73,7 @@ if score >= 60:
     message = "success"
 else:
     message = "failure"
+print(message)
 #조건부 표현식은 이러한 코드를 변수 = 조건문이_참인 경우의 값 if 조건문 else 조건문이 거짓인 경우의 값으로 정의한다.
 message = "success" if score >= 60 else "failure"
+print(message)
