@@ -29,9 +29,14 @@ else:
     print("지각")
 
 #time과 distance가 둘다 참일시 등교성공
-distance = 50
-time = 200
-if time < 100 or distance <= 70:  #distance가 참일지라도 time은 참이아니기에 "지각"이 출력된다. 
+if time < 100 and distance <= 70:  #distance가 참일지라도 time은 참이아니기에 "지각"이 출력된다. 
+    print("등교성공!")
+else:
+    print("지각")
+
+#time과 distamce가 둘다 참이거나 door이 참일때
+door = True
+if time < 100 and distance > 70 or door == True:
     print("등교성공!")
 else:
     print("지각")
