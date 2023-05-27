@@ -29,3 +29,8 @@ while True: #무한반복된다.
     c+=1
     if c == 24:
         break
+while False: #실행하지 않음
+    print (c)
+    c+=1
+    if c == 24:
+        break
