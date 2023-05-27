@@ -36,7 +36,7 @@ else:
 
 #time과 distamce가 둘다 참이거나 door이 참일때
 door = True
-if time < 100 and distance > 70 or door == True:
+if time < 100 and distance > 70 or door == False:
     print("등교성공!")
 else:
     print("지각")
