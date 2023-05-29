@@ -8,7 +8,8 @@ print(arr)
 print(arr[0])#리스트 0번째의 'a'출력 0번부터 시작
 print(arr[1])#리스트 1번째의 'b'출력
 print(arr[2])#리스트 2번째의 'c'출력
-
+print(arr[2:])#리스트의 2번째요소부터 끝까지
+print(arr[:1])#리트의 첫번째 요소부터 1번째 요소까지
 print(arr.index('c')) #'c'가 arr리스트의 몇번째에 있는지 알수있다.
 arr.append('f') #'f'가 arr리스트에 추가된다.
 arr.insert(1,'b2') #1번째에 'b2'를 넣는다 원레 1번째에 있던 값과 그 뒤의 값들은 뒤로 밀려난다.
