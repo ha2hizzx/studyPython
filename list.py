@@ -31,3 +31,10 @@ num.sort() # 오름차순 정렬
 print(num)
 num.sort(reverse=True) # 내림차순 정렬
 print(num)
+
+a = [1,2,3,4,5]
+b = [2,3]
+#a리스트와 b리스트를 합쳐서 출력
+print(a + b)
+#a리스트를 2배로 출력한다 이때 값은 모두 한 리스트안에 들어간다.
+print(a * 2)
