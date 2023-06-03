@@ -34,3 +34,8 @@ while False: #실행하지 않음
     c+=1
     if c == 24:
         break
+a = 0
+while a < 5: 
+    a = a +1
+    print("Hello")  #수행할 문장
+print("\n")
