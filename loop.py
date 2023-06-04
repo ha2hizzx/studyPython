@@ -40,5 +40,5 @@ while a < 5:
     a = a +1
     print("Hello")  #수행할 문장
 print("\n")
-
+#문자열 for
     
