@@ -40,5 +40,19 @@ while a < 5:
     a = a +1
     print("Hello")  #수행할 문장
 print("\n")
-#문자열 for
-    
+#반복문 for
+a = ['Jone', 'David', 'Bob']
+for name in a:
+    print(name)
+print("\n")
+a = ['David', 'Lucy', 'V']
+for name in a:
+    print(name)
+    if name == 'Lucy':
+        break #break를 써서 그 뒤로는 실행되지 않음
+        print("finish")
+print("\n")
+for name in a:
+    print(name)
+else: #루프가 실행된이후 else를 실행함
+    print("finish")
