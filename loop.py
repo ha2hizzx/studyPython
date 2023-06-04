@@ -39,3 +39,11 @@ while a < 5:
     a = a +1
     print("Hello")  #수행할 문장
 print("\n")
+
+#반복문 for
+a = ['Jone', 'David', 'Bob']
+for name in a:
+    print(name)
+    if name == 'Bob':
+        break
+    
