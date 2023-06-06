@@ -5,10 +5,21 @@ if time:
     print("등교성공!") #time = True 이기에 if 문에서 참이 나온다
 else:
     print("지각")
+time = True
+if time == True: #위의내용과 동일하다.
+    print("등교성공!") #time = True 이기에 if 문에서 참이 나온다
+else:
+    print("지각")
 
 #time이 False라면
 time = False
 if time:
+    print("등교성공!")
+else:
+    print("지각") #time = False 이기에 if 문에서 참이 나오지 않고 else에서 출력이 된다.
+    
+time = False
+if time == False:
     print("등교성공!")
 else:
     print("지각") #time = False 이기에 if 문에서 참이 나오지 않고 else에서 출력이 된다.
