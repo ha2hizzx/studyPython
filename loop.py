@@ -56,3 +56,12 @@ for name in a:
     print(name)
 else: #루프가 실행된이후 else를 실행함
     print("finish")
+#이중 반복문
+i = 1
+while i < 10:
+    j = 1
+    while j < 10:
+        print("{0} * {1} = {2}".format(i, j, i*j))
+        j += 1
+    print("\n")
+    i += 1
