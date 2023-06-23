@@ -45,6 +45,7 @@ n = [1, "hello", 2.3]
 print(n)
 #리스트 안에 for문 쓰기
 arr = [1,2,3,4,5]
+print(arr[1:3])
 result = [a * 5 for a in arr]
 print(a)
 print(result)
