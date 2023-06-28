@@ -49,3 +49,7 @@ print(arr[1:3])
 result = [a * 5 for a in arr]
 print(a)
 print(result)
+
+a = [1,2,3]
+a.append(4)
+print(a)
