@@ -44,3 +44,4 @@ print(a * 5) # a를 5번 출력한다.
 print(a + b) # a와 b를 합쳐서 출력한다.
 print((a + b) * 5)
 print(a + b + c)
+print(a + " " + "python" + " " + c)
