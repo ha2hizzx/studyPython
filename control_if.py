@@ -93,3 +93,11 @@ print(message)
 #조건부 표현식은 이러한 코드를 변수 = 조건문이_참인 경우의 값 if 조건문 else 조건문이 거짓인 경우의 값으로 정의한다.
 message = "success" if score >= 60 else "failure"
 print(message)
+#if안에 if쓰기
+a = 50
+if a > 30:
+    if a < 60:
+        print("20<a<60")
+
+if a > 30 and a < 60:
+    print("30<a<60")
