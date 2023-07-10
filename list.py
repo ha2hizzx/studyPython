@@ -55,3 +55,6 @@ a.append(4)
 print(a)
 a.append([5,6])
 print(a)
+#리스트 정렬sort
+a.sort()
+print(a)
