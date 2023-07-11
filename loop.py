@@ -65,3 +65,15 @@ while i < 10:
         j += 1
     print("\n")
     i += 1
+#삼중
+i = 1
+while i < 10:
+    j = 1
+    while j < 10:
+        k = 1
+        while k < 10:
+            print("{0} * {1} * {2} = {3}".format(i,j,k,i*j*k))
+            k +=1
+        j += 1
+    print("\n")
+    i += 1
