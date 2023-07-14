@@ -58,3 +58,6 @@ print(a)
 #리스트 정렬sort
 a.sort()
 print(a)
+a = ['a', 'c', 'b']
+a.sort()
+print(a)
