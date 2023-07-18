@@ -26,7 +26,7 @@ num = [1,2,3,4,5]
 print(sum(num)) #합 구하기
 print(min(num)) #최소값
 print(max(num)) #최대값
-
+print(num.index(2))
 num.reverse() #역순 그로 그대로 뒤집는다.
 print(num)
 num.sort() # 오름차순 정렬
