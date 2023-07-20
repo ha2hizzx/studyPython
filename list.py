@@ -56,12 +56,9 @@ print(a)
 a.append([5,6])
 print(a)
 #리스트 정렬sort
-a.sort()
+a = [1,4,3,2]
+print(a.sort())
 print(a)
-a = ['a', 'c', 'b']
-a.sort()
-print(a)
-a.reverse()
-print(a)
-a = [1,2,3]
-print(a.index(3))
+b = ['a', 'c', 'b']
+b.reverse()
+print(b)
