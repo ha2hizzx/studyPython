@@ -60,5 +60,6 @@ a = [1,4,3,2]
 print(a.sort())
 print(a)
 b = ['a', 'c', 'b']
+b.sort
 b.reverse()
 print(b)
