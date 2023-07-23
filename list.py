@@ -63,3 +63,5 @@ b = ['a', 'c', 'b']
 b.sort
 b.reverse()
 print(b)
+a = [1,2,3]
+print(a.index(3))
