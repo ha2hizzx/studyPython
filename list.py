@@ -66,3 +66,5 @@ print(b)
 a = [1,2,3]
 print(a.index(3))
 print(a.index(1))
+a.insert(0, 4)
+print(a)
