@@ -69,7 +69,12 @@ print(a.index(1))
 a.insert(0, 4)
 print(a)
 a = [1, 2, 3, 4, 5]
+#리스트 요소 삭제
 del a[1]
 print(a)
 del a[2:]
+print(a)
+a = [1,2,3,4,5]
+#리스트 n번째 요소 삭제
+a.remove(1)
 print(a)
