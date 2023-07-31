@@ -101,3 +101,13 @@ if a > 30:
 
 if a > 30 and a < 60:
     print("30<a<60")
+
+p = ['paper', 'cellphone']
+card = True
+if 'money' in p:
+    print("택시 타고가")
+else:
+    if card:
+        print("택시타고 가")
+    else:
+        print("걸어가")
