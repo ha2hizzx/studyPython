@@ -111,3 +111,9 @@ else:
         print("택시타고 가")
     else:
         print("걸어가")
+if 'money' in p:
+    print("택시 타")
+elif card:
+    print("택시 타")
+else:
+    print("걸어가")
