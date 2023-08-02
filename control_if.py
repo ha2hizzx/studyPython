@@ -117,3 +117,7 @@ elif card:
     print("택시 타")
 else:
     print("걸어가")
+if 'money' in p:
+    pass
+else:
+    print("카드를 꺼내라")
