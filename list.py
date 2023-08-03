@@ -85,3 +85,5 @@ print(a)
 print(a.pop())
 a.pop(1)
 print(a)
+#리스트 확장
+a = [1,2,3]
