@@ -8,3 +8,4 @@ x = [1, 11, 2, 3]
 y = reversed(x)
 print(x)
 #print(y)  :    <list_reverseiterator object at 0x1060c9fd0>
+print(list(y))
