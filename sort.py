@@ -9,3 +9,6 @@ y = reversed(x)
 print(x)
 #print(y)  :    <list_reverseiterator object at 0x1060c9fd0>
 print(list(y))
+num = [33, 2, 81, 21, -2, 41, 62, 23]
+num.sort()
+print(num)
