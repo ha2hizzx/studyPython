@@ -12,3 +12,4 @@ print(list(y))
 num = [33, 2, 81, 21, -2, 41, 62, 23]
 num.sort()
 print(num)
+str1 = ['h', 'e', 'l', 'l', 'o', 'p', 'y']
