@@ -14,5 +14,6 @@ num.sort()
 print(num)
 str1 = ['h', 'e', 'l', 'l', 'o', 'p', 'y']
 str1.sort()
+print(str1)
 str2 = ['h', 'e', 'l', 'l', 'o', 'p', 'y', 'H', 'E', 'L', 'L', 'O', 'P', 'Y']
 str2.sort()
