@@ -20,3 +20,4 @@ print(str1)
 str2 = ['h', 'e', 'l', 'l', 'o', 'p', 'y', 'H', 'E', 'L', 'L', 'O', 'P', 'Y']
 str2.sort()
 print(str2)
+a = [3, 2, 8, 4, 1, 10, 99, 5]
