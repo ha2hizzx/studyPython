@@ -25,3 +25,4 @@ b = [3, 2, 8, 4, 1, 10, 99, 5]
 #기본(오름차순)
 a.sort()
 print(a)
+b.sort(reverse=False)
