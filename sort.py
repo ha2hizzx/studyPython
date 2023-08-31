@@ -29,3 +29,4 @@ print(a)
 #오름차순
 b.sort(reverse=False)
 print(b)
+#내림차순
