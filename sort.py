@@ -30,3 +30,4 @@ print(a)
 b.sort(reverse=False)
 print(b)
 #내림차순
+c.sort(reverse=True)
