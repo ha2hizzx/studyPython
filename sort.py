@@ -32,3 +32,4 @@ print(b)
 #내림차순
 c.sort(reverse=True)
 print(c)
+#문자열 sorted
