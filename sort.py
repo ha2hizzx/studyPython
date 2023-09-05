@@ -34,3 +34,8 @@ c.sort(reverse=True)
 print(c)
 #문자열 sorted
 sorted("My name is Kim Dong Hyuon". split(), key=str.lower)
+student = [
+    ('John', 'A', 15),
+    ('Kay', 'B', 13),
+    ('Dave', 'B', 10),
+]
