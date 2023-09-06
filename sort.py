@@ -39,3 +39,4 @@ student = [
     ('Kay', 'B', 13),
     ('Dave', 'B', 10),
 ]
+sorted(student, key=lambda lala: lala[2])
