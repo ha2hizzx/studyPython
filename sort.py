@@ -47,3 +47,9 @@ class Student:
         self.age = age
     def __repr__(self):
         return repr((self.name, self. grade, self.age))
+    student_tuples = [
+    ('John', 'A', 15),
+    ('Kay', 'B', 13),
+    ('Dave', 'B', 10),
+]
+    sorted(student_tuples, key=lambda student: student.age)
