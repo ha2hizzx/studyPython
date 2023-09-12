@@ -54,3 +54,4 @@ class Student:
 ]
     sorted(student_tuples, key=lambda student: student.age)
 #bubble_sort
+array = [4, 2, 1, 3, 5, 8, 6, 7, 9]
