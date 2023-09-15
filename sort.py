@@ -62,3 +62,4 @@ def bubble_sort(array):
                 array[j], array[j + 1] = array[j + 1], array[j]
                 print(array)
 print("before : ", array)
+bubble_sort(array)
