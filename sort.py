@@ -63,3 +63,4 @@ def bubble_sort(array):
                 print(array)
 print("before : ", array)
 bubble_sort(array)
+print("after : ", array)
