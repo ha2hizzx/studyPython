@@ -55,6 +55,7 @@ class Student:
     sorted(student_tuples, key=lambda student: student.age)
 #bubble_sort
 array = [4, 2, 1, 3, 5, 8, 6, 7, 9]
+arr = [51, 23, 5, 1,87, 192, 72, 92]
 def bubble_sort(array):
     for i in range(n - 1):
         for j in range(n - i - 1):
