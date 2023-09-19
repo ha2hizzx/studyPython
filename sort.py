@@ -33,13 +33,13 @@ print(b)
 c.sort(reverse=True)
 print(c)
 #문자열 sorted
-sorted("My name is Kim Dong Hyuon". split(), key=str.lower)
-student_tuples = [
-    ('John', 'A', 15),
-    ('Kay', 'B', 13),
-    ('Dave', 'B', 10),
-]
-sorted(student_tuples, key=lambda student: student[2])
+#sorted("My name is Kim Dong Hyuon". split(), key=str.lower)
+#student_tuples = [
+#    ('John', 'A', 15),
+#    ('Kay', 'B', 13),
+#    ('Dave', 'B', 10),
+#]
+#sorted(student_tuples, key=lambda student: student[2])
 class Student:
     def __init__(self, name, grade, age):
         self.name = name
