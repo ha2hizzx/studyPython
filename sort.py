@@ -70,9 +70,7 @@ print("arr-------")
 print("before : ", arr)
 print("after : ", arr)
 
-
-
-
+#합병 정렬
 def merge_sort(arr):
     def sort(low, high):
         if high - low < 2:
