@@ -121,3 +121,16 @@ if 'money' in p:
     pass
 else:
     print("카드를 꺼내라")
+
+#점수별 반응
+a = input()
+if(a == 'A'):
+    print("best!!!")
+elif(a == "B"):
+    print("good!!")
+elif(a == "C"):
+    print("run!")
+elif(a == "D"):
+    print("slowly~")
+else:
+    print("what?")
