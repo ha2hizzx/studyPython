@@ -92,3 +92,18 @@ else:
         num -= 1
 
     print("팩토리얼:", factorial)
+
+
+num = int(input("숫자를 입력하세요: "))
+factorial = 1
+
+if num < 0:
+    print("음수의 팩토리얼은 정의되지 않습니다.")
+elif num == 0:
+    print("0의 팩토리얼은 1입니다.")
+else:
+    while num > 1:
+        factorial += num
+        num -= 1
+
+    print("팩토리얼:", factorial)
