@@ -1,5 +1,7 @@
 #합병정렬
 def merge_sort(arr):
+
+    
     def sort(low, high):
         if high - low < 2:
             return
@@ -7,6 +9,9 @@ def merge_sort(arr):
         sort(low, mid)
         sort(mid, high)
         merge(low, mid, high)
+
+
+
     def merge(low, mid, high):
         temp = []
         l, h = low, mid
